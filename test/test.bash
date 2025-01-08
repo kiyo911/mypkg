@@ -10,5 +10,7 @@ timeout 20 ros2 launch mypkg fibonacci_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
 grep 'Listen: 1'
+cat /tmp/mypkg.log |
 grep 'Listen: 13'
+cat /tmp/mypkg.log |
 grep 'Listen: 1597'
