@@ -15,5 +15,5 @@ def cb(msg):
 
 
 def main():
-    sub = node.create_subscription(Int32, "countup", cb, 10)
+    sub = node.create_subscription(Int32, "fibonaccino", cb, 10)
     rclpy.spin(node)
