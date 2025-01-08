@@ -7,7 +7,7 @@ from std_msgs.msg import Int32
 
 rclpy.init()
 node = Node("takler")
-pub = node.create_publisher(Int32, "countup", 10)
+pub = node.create_publisher(Int32, "fibonaccino", 10)
 n = 0
 
 
