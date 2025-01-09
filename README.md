@@ -2,14 +2,14 @@
 
 ## 簡単な説明
 mypkgはros2のパッケージです。以下のノードが含まれます。
-- fibonacci.py
+- fibonacci
   - フィボナッチ数列をトピックから出すノードです。
-- listener.py
+- listener
   - デバッグ用
 
 
 ### このノードは何をするものなのか
-- フィボナッチ数列の数値を順番にトピックから出します。46番目の数値まで正確に算出できます。
+- フィボナッチ数列の数値を順番にfibonaccinoというトピックから出します。46番目の数値まで正確に算出できます。
 
 ### このコードの使い方
 パッケージをビルドした後、下記のコマンドを入力してください。
@@ -28,15 +28,15 @@ ros2 topic echo /fibonaccino #ros2を使ってサブスクライブ
 - python
 - ROS2
 
-# test環境
-- ubuntu-22.04
-- ROS2 jazzy
+以下の環境でテストされています。
+  - ubuntu-22.04
+  - ROS2 jazzy
 
 
 
-# LIECENSE
+# ライセンス
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び仕様が許可されます。
-- このパッケージのコードは、下記のスライド（CC-BYーSA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです。
+- このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson9.html
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson10.html
