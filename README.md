@@ -35,7 +35,7 @@ ros2 topic echo /fibonaccino #ros2を使ってサブスクライブ
 
 
 # ライセンス
-- このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び仕様が許可されます。
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び仕様が許可されます。
 - このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson9.html
