@@ -8,7 +8,7 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 3 ros2 launch mypkg fibonacci_listen.launch.py > /tmp/mypkg.log
+timeout 25 ros2 launch mypkg fibonacci_listen.launch.py > /tmp/mypkg.log
 
 res=0
 
@@ -18,13 +18,19 @@ ng () {
 }
 
 cat /tmp/mypkg.log |
-grep ' 1'
+grep 'Listen: 1 '
 
 [ "$?" = 0 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
 cat /tmp/mypkg.log |
-grep ' 3'
+grep 'Listen: 3 '
+
+[ "$?" = 0 ]      || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+cat /tmp/mypkg.log |
+grep 'Listen: 1836311903 '
 
 [ "$?" = 0 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
