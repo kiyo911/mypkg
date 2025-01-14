@@ -30,13 +30,13 @@ ros2 topic echo /fibonaccino #ros2を使ってサブスクライブ
 
 以下の環境でテストされています。
   - ubuntu-22.04
-  - ROS2 jazzy
+  - ROS2
 
 
 
 # ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び仕様が許可されます。
-- このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
+- このパッケージのコードの一部は、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson9.html
   - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson10.html
