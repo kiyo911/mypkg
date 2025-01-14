@@ -21,7 +21,7 @@ ros2 run mypkg fibonacci #ノードを実行
 別の端末で
 
 ```
-ros2 topic echo /fibonaccino #ros2を使ってサブスクライブ
+ros2 topic echo /fibonaccino #ros2コマンドを使ってサブスクライブ
 ```
 
 # 必要なソフトウェア
